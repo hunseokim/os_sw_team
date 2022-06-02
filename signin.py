@@ -113,7 +113,6 @@ def signin_btncmd():
 #등록 버튼
 signin_btn = Button(root, text = "등록", anchor = CENTER, command=signin_btncmd, width = 10, height = 2)
 signin_btn.pack()
-#signin_btn.place(x = 10, y = 10)
 
 
 root.mainloop()
