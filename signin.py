@@ -104,7 +104,6 @@ ref_btn.grid(row = 1, column = 1)
 
 #등록 버튼 기능
 def signin_btncmd():
-    #불가능한 경우
     if email.get() == "" or is_email_valid(email.get())==False or pw.get() == "" or name.get() == "" or (sex.get()!= 1 and sex.get()!= 2) or randstr.get().upper()!=txt_captcha:
         msgbox.showwarning("오류", f"입력되지 않은 정보가 있습니다. 다시 확인하세요.")
     else:
