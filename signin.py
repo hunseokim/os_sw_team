@@ -100,7 +100,7 @@ randstr.grid(row = 2)
 
 ref_btn = Button(randomframe, text = "새로고침", anchor = "e", command = refresh_btncmd)
 ref_btn.grid(row = 1, column = 1)
-#ref_btn.pack()
+
 
 #등록 버튼 기능
 def signin_btncmd():
