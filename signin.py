@@ -20,7 +20,6 @@ root.geometry("540x360+200+100") #윈도우/창이 나타나는 위치를 지정
 
 
 title = Label(root, text = "CLOUD 회원가입", font = ("맑은 고딕", '25','bold'))
-#title.grid(row = 1, column = 1)
 title.pack()
 
 
